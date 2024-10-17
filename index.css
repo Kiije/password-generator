@@ -96,7 +96,7 @@ h3 {
     
 }
 
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
     body {
         margin: 0;
         height: 100vh;
@@ -156,4 +156,77 @@ h3 {
         max-height: 91px;
         max-width: 550px;
     }
-}
+} */
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #btn-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-height: 500px;
+            max-width: 500px;
+            overflow: hidden;
+            text-align: center;
+    }
+    
+
+    #password-one {
+        width: 50%; /* Assure que la taille reste constante */
+        height: 20px; /* Fixe la hauteur pour éviter qu'il s'étire */
+        padding: 20px 10px 20px 10px;
+    }
+    #password-two {
+        width: 50%; /* Assure que la taille reste constante */
+        height: 20px; /* Fixe la hauteur pour éviter qu'il s'étire */
+        margin: 0 0;
+        padding: 20px 10px 20px 10px;
+        
+    }
+
+    #generate-btn {
+        width: 50%;
+        padding: 15px 5px;
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .line {
+        margin: 20px 0;
+    }
+
+    #signature {
+        margin-top: 150px;
+        text-align: center;
+    }
+}    
