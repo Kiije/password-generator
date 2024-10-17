@@ -96,7 +96,7 @@ h3 {
     
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     body {
         margin: 0;
         height: 100vh;
@@ -150,5 +150,10 @@ h3 {
     #signature {
         margin-top: 150px;
         text-align: center;
+    }
+
+    #btn-section {
+        max-height: 91px;
+        max-width: 550px;
     }
 }
